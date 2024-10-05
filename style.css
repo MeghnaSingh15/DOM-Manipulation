@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.count-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button#clear {
+    color: red;
+    border: 2px solid red;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+.error {
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
